@@ -1,0 +1,232 @@
+{
+    "roles": [
+        {
+            "name": "Admin",
+            "color": "#FF0000",
+            "permissions": [
+                "Administrator"
+            ]
+        },
+        {
+            "name": "Moderator",
+            "color": "#00FF00",
+            "permissions": [
+                "ManageGuild",
+                "ManageMessages",
+                "KickMembers"
+            ]
+        },
+        {
+            "name": "Member",
+            "color": "#0000FF",
+            "permissions": [
+                "ViewChannel",
+                "SendMessages"
+            ]
+        },
+        {
+            "name": "Guest",
+            "color": "#FFFF00",
+            "permissions": [
+                "ViewChannel"
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "name": "📢 Information",
+            "permissions": {
+                "Admin": [
+                    "ViewChannel",
+                    "SendMessages",
+                    "ManageChannels"
+                ],
+                "Moderator": [
+                    "ViewChannel",
+                    "SendMessages"
+                ],
+                "Member": [
+                    "ViewChannel"
+                ],
+                "Guest": [
+                    "ViewChannel"
+                ]
+            },
+            "channels": [
+                {
+                    "name": "📣-announcements",
+                    "type": "GUILD_TEXT",
+                    "permissions": {
+                        "Admin": [
+                            "ManageMessages"
+                        ],
+                        "Moderator": [],
+                        "Member": [],
+                        "Guest": []
+                    }
+                },
+                {
+                    "name": "📜-rules",
+                    "type": "GUILD_TEXT",
+                    "permissions": {
+                        "Admin": [],
+                        "Moderator": [],
+                        "Member": [],
+                        "Guest": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "👥 Community",
+            "permissions": {
+                "Admin": [
+                    "ViewChannel",
+                    "SendMessages",
+                    "ManageChannels"
+                ],
+                "Moderator": [
+                    "ViewChannel",
+                    "SendMessages"
+                ],
+                "Member": [
+                    "ViewChannel",
+                    "SendMessages"
+                ],
+                "Guest": [
+                    "ViewChannel"
+                ]
+            },
+            "channels": [
+                {
+                    "name": "💬-general",
+                    "type": "GUILD_TEXT",
+                    "permissions": {
+                        "Admin": [],
+                        "Moderator": [],
+                        "Member": [
+                            "SendMessages"
+                        ],
+                        "Guest": []
+                    }
+                },
+                {
+                    "name": "🎤-voice-chat",
+                    "type": "GUILD_VOICE",
+                    "permissions": {
+                        "Admin": [],
+                        "Moderator": [],
+                        "Member": [],
+                        "Guest": []
+                    }
+                },
+                {
+                    "name": "📸-media",
+                    "type": "GUILD_TEXT",
+                    "permissions": {
+                        "Admin": [],
+                        "Moderator": [],
+                        "Member": [
+                            "SendMessages"
+                        ],
+                        "Guest": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "🛠️ Support",
+            "permissions": {
+                "Admin": [
+                    "ViewChannel",
+                    "SendMessages",
+                    "ManageChannels"
+                ],
+                "Moderator": [
+                    "ViewChannel",
+                    "SendMessages"
+                ],
+                "Member": [
+                    "ViewChannel",
+                    "SendMessages"
+                ],
+                "Guest": [
+                    "ViewChannel"
+                ]
+            },
+            "channels": [
+                {
+                    "name": "❓-support-chat",
+                    "type": "GUILD_TEXT",
+                    "permissions": {
+                        "Admin": [],
+                        "Moderator": [
+                            "SendMessages"
+                        ],
+                        "Member": [
+                            "SendMessages"
+                        ],
+                        "Guest": []
+                    }
+                },
+                {
+                    "name": "📂-resources",
+                    "type": "GUILD_TEXT",
+                    "permissions": {
+                        "Admin": [],
+                        "Moderator": [],
+                        "Member": [],
+                        "Guest": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "🎉 Events",
+            "permissions": {
+                "Admin": [
+                    "ViewChannel",
+                    "SendMessages",
+                    "ManageChannels"
+                ],
+                "Moderator": [
+                    "ViewChannel",
+                    "SendMessages"
+                ],
+                "Member": [
+                    "ViewChannel",
+                    "SendMessages"
+                ],
+                "Guest": [
+                    "ViewChannel"
+                ]
+            },
+            "channels": [
+                {
+                    "name": "📅-events-schedule",
+                    "type": "GUILD_TEXT",
+                    "permissions": {
+                        "Admin": [
+                            "ManageMessages"
+                        ],
+                        "Moderator": [],
+                        "Member": [],
+                        "Guest": []
+                    }
+                },
+                {
+                    "name": "🎈-event-announcements",
+                    "type": "GUILD_TEXT",
+                    "permissions": {
+                        "Admin": [
+                            "ManageMessages"
+                        ],
+                        "Moderator": [],
+                        "Member": [],
+                        "Guest": []
+                    }
+                }
+            ]
+        }
+    ]
+}

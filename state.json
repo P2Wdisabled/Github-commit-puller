@@ -1,0 +1,12 @@
+{
+  "repositories": {
+    "P2Wdisabled/Mailbox": {
+      "lastCommitDate": "2024-07-20T21:24:48.000Z",
+      "lastReleaseDate": "2024-07-12T01:19:11.000Z"
+    },
+    "P2Wdisabled/WorldPluginManager": {
+      "lastCommitDate": "2024-07-20T19:49:50.000Z",
+      "lastReleaseDate": null
+    }
+  }
+}
